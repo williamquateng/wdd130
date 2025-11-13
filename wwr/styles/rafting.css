@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #2E4053;
+    /* dark blue */
+    --secondary-color: #F7DC6F;
+    /* light yellow */
+    --accent1-color: #3498db;
+    /* blue */
+    --accent2-color: #E74C3C;
+    /* red */
+    --heading-font: 'Trebuchet MS', sans-serif;
+    --body-font: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 10px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    width: 90%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.42);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin: 0 0 16px 16px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
