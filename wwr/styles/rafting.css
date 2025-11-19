@@ -1,4 +1,78 @@
-:root {
+/* rafting.css */
+
+/* Header Styles */
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+/* rafting.css */
+
+/* History Section Styles */
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 2em;
+}
+
+.history img {
+    width: 100%;
+    height: auto;
+}
+
+/* rafting.css */
+
+/* Adventures Section Styles */
+.adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.adventures figure {
+    margin: 20px;
+}
+
+.adventures img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.adventures figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+root {
     --primary-color: #2E4053;
     /* dark blue */
     --secondary-color: #F7DC6F;
@@ -83,4 +157,29 @@ h1 {
     margin: 0 0 16px 16px;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* rafting.css */
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.social a {
+    margin-right: 20px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
 }
