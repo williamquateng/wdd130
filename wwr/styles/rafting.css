@@ -20,6 +20,12 @@ header {
     padding: 2em;
 }
 
+history-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
 .history img {
     width: 100%;
     height: auto;
@@ -34,6 +40,13 @@ header {
     justify-content: space-between;
     padding: 2em;
 }
+
+adventures-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
 
 .adventures figure {
     margin: 20px;
@@ -72,18 +85,16 @@ nav a:hover {
     color: #ccc;
 }
 
-root {
-    --primary-color: #2E4053;
-    /* dark blue */
-    --secondary-color: #F7DC6F;
-    /* light yellow */
-    --accent1-color: #3498db;
-    /* blue */
-    --accent2-color: #E74C3C;
-    /* red */
-    --heading-font: 'Trebuchet MS', sans-serif;
-    --body-font: Arial, sans-serif;
+/* rafting.css */
+
+:root {
+    --primary-color: #333;
+    --accent-color: #fff;
+    --background-color: #f2f2f2;
+    --text-color: #333;
+    --font-family: Arial, sans-serif;
 }
+
 
 * {
     margin: 0;
@@ -163,10 +174,13 @@ h1 {
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
     padding: 1em;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .social {
