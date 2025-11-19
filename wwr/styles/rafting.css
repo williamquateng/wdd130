@@ -87,6 +87,7 @@ nav a:hover {
 
 /* rafting.css */
 
+/* Variables */
 :root {
     --primary-color: #333;
     --accent-color: #fff;
@@ -106,6 +107,7 @@ header {
     color: var(--accent-color);
 }
 
+/* Global Styles */
 
 * {
     margin: 0;
