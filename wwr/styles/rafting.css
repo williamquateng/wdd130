@@ -95,6 +95,17 @@ nav a:hover {
     --font-family: Arial, sans-serif;
 }
 
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
 
 * {
     margin: 0;
