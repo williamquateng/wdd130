@@ -1,25 +1,26 @@
-nav {
-    color: #000;
-
+main {
+    width: 80%;
+    /* adjust the width as needed */
 }
 
-nav a {
-    color: white;
-    padding: 10px;
-    display: block;
+aside {
+    width: 20%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-h1 {
-    color: steelblue;
+aside img {
+    width: 200px;
+    height: auto;
 }
-
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    /* add other styles as needed */
 }
 
 
@@ -43,7 +44,32 @@ aside img {
 }
 
 footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
     text-align: center;
+}
+
+nav {
+    background-color: #4567b7;
+    /* blue background */
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    /* white text */
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
