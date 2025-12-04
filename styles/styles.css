@@ -1,7 +1,8 @@
 main {
     width: 80%;
-    /* adjust the width as needed */
 }
+
+/* adjust the width as needed */
 
 aside {
     width: 20%;
@@ -20,8 +21,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    /* add other styles as needed */
 }
+
+/* add other styles as needed */
 
 
 p {
@@ -49,9 +51,9 @@ footer {
     text-align: center;
 }
 
+/* blue background */
 nav {
     background-color: #4567b7;
-    /* blue background */
     padding: 1em;
     text-align: center;
 }
